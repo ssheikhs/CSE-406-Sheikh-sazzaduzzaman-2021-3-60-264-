@@ -1,0 +1,9 @@
+void setup(){
+Serial.begin(9600);     
+  9600 baud
+}
+void loop(){
+int sensor=analogRead(A0); 
+  signal read and appointed sensor
+Serial.println(sensor);  
+}
